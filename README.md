@@ -3,7 +3,7 @@ Introduction to Unit Testing
 
 Given a linear input, a function was created to return a cubed rate of the input.
 
-[TestExpo.java](../blob/master/src/TestExpo.java)
+[TestExpo.java](src/TestExpo.java)
 
 ```
 public double getExpoRate(double input) {
@@ -20,7 +20,7 @@ public double getExpoRate(double input) {
 
 ![alt text](https://dl.dropboxusercontent.com/s/6zawy8hirxq3rb8/cubed_expo_rate.png "Linear vs Cubed")
 
-[TestExpoTest.java](../blob/master/test/TestExpoTest.java)
+[TestExpoTest.java](test/TestExpoTest.java)
 
 ## Boundary Test
 Starting well below the threshold and continuing in 0.01 increments until past the upper threshold.
